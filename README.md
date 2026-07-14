@@ -2,5 +2,4 @@
 
 Vortrag BZT Frauenfeld 2026
 
-https://wolfgangspahn.github.io/atelier_studienstiftung_ki_2026.github.io#
-
+- https://wolfgangspahn.github.io/Vortrag_Frauenfeld_BZT_2026/
