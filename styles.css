@@ -17,18 +17,21 @@ img.image-border {
     padding-top: 10px;
 }
 
-.small, .text-xs {
-    font-size: 0.8em;
-}
+
+
+
 
 .text-lg {
     font-size: 1.4em;
 }
 
-.text-sm {
-    font-size: 0.8em;
+.small, .text-0xs {
+    font-size: 0.9em;
 }
 
+.small, .text-xs, .text-sm {
+    font-size: 0.8em;
+}
 .text-1xs {
     font-size: 0.6em;
 }
