@@ -1,0 +1,32 @@
+# Ignore all log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Quarto temporary files
+.quarto-cache/
+.quarto-work/
+
+# Ignore output files
+/current/
+# /docs/
+/index_files/
+/simulations/.venv/
+
+# temporary files
+/tmp/
+/data/
+
+# Ignore images link
+/images
+
+# tools
+/.quarto/
+/.vscode
+
+*.tar.gz
+
+
+**/*.quarto_ipynb

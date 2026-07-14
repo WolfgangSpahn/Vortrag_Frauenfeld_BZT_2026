@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+  # Exclude the 'uebungen' folder from rendering
+  # You can use a glob pattern to exclude all relevant subfolders if needed
+  # See https://quarto.org/docs/reference/projects/qmd.html#project-exclude
+  # Use 'render' to control which files are rendered
+  # Exclude 'uebungen/' from rendering
+  render:
+    - "*.qmd"
+    - "!uebungen/"
+
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        /* Reduce bogus extra space in Mermaid label containers */
+        .label foreignObject > div {
+          display: inline-block;
+          vertical-align: top;
+          white-space: nowrap;
+          line-height: 1.1;
+          margin-bottom: -0.4em;
+        }
+        </style>

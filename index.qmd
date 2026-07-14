@@ -1,0 +1,478 @@
+---
+title: "Wie verändert KI die Schule"
+subtitle: |
+  Chancen, Zumutungen und pädagogische Entscheidungen.
+  <br>^v0.0.1^<br>
+  *Wolfgang Spahn, Marc Eyer*
+  <br><br>
+  28.03.2026
+  <br>
+  ![](images/phbern-cover.jpg){width="70%"}
+
+format: 
+  revealjs: 
+    config:
+      touch: false
+    controls: true
+    smaller: true
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    logo: images/logo_phbern.png
+    footer: Dr. Wolfgang Spahn
+    css: [styles.css]  # Include your custom CSS file here
+    include-in-header: includes.html
+
+---
+
+## Agenda
+
+- **KI Status 2026**
+   
+  * Autonome KI Arbeit in Verwaltung, Handwerk und Service
+
+
+- **Warum Schule in 2030**
+
+  * Vorbereitung auf eine veränderte Arbeitswelt
+
+- **KI sensitiver Unterricht**
+
+  * Erhalt und Ausbau von nicht maschinellen Fähigkeiten
+
+<!-- =================================================== slide ===================================================== -->
+## I.
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+KI Status 2026
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI - Intelligenz?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Viele Definitionen für Intelligenz
+
+- **Intelligenz (ganzheitlich)** ist die Hauptfunktion des menschlichen Gehirns, um kognitive Funktionen bereitzustellen, die einem Lebewesen das Überleben in einer feindlichen Umgebung ermöglichen. 
+- **Intelligenz (kommerziell)** wird benötigt, um Aufgaben zu erledigen, die von geistigen Arbeitern ausgeführt werden. 
+- 1000 andere: …
+
+**Künstliche Intelligenz**
+
+- eine Software kann bis zu einem gewissen Grad geistige Arbeit, kognitive Aufgaben leisten.
+:::
+::: {.column width="50%"}
+Analogie
+
+![Ein künstliches Herz ersetzt ein menschliches Herz. Ja/Nein](images/artificialHeart.webp)
+
+:::
+::::
+::: {.notes}
+- Daher spreche ich lieber von cognitive Aufgaben.
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI - Entwicklung 1/2
+
+- TODO: Länge eine autonomen Aufgaabe: GPT-2 bis GPT-5.5
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI - Entwicklung 2/2
+
+- TODO: Von Chat über Work zu Codex
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI in der Praxis
+
+Eine Maschine kann bis zu einem gewissen Grad kognitive Aufgaben leisten. Dafür muss eine Cognitive Kette durchlaufen werden:
+
+<video width="800" controls>
+  <source src="images/RobotAtlasWorking_shortend.mp4" type="video/mp4">
+</video>
+
+ Wahrnehmen -> Antizipieren -> Handeln -> Reflektieren. 
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI in Wissenschaft & IT
+
+:::: {.columns}
+::: {.column width="30%"}
+
+Top Forscher lösen lange ungelöste Probleme, erstmals mit KI Sprachmodelle, 
+
+- aber nur wenn sie die Sprachmodelle richtig steuern können.
+- je höher ausgebildet, desto besser die Steuerung, desto höher der Nutzen.
+
+:::
+
+::: {.column width="70%}
+
+::: {=html}
+<div style="position: relative; width: 500px; height: 350px;">
+
+  <figure style="margin:0; padding:0; position: absolute; top: 300px; left: 300px; width: 320px; z-index: 9;">
+    <img src="images/CCompiler.png" style="width: 100%; border: 1px solid #888;" />
+  </figure>
+  <figure style="margin:0; padding:0; position: absolute; top: 150px; left: 150px; width: 320px; z-index: 6;">
+    <img src="images/FormelGluonenAmplitude.png" style="width: 100%; border: 1px solid #888;" />
+  </figure>
+  <figure style="margin:0; padding:0; position: absolute; top: 0px; left: 0px; width: 320px; z-index: 3;">
+    <img src="images/KnuthHamiltonianCynle.png" style="width: 100%; border: 1px solid #888;" />
+    <figcaption style="background:rgba(255,255,255,0.8); font-size:0.9em; padding:2px 6px; border-radius:4px; position:absolute; bottom:6px; left:6px;">Hamiltonian <br> Cycle</figcaption>
+  </figure>
+
+</div>
+:::
+:::
+::::
+links: [D.Knuth](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf), [Gluonen Amplitude](https://openai.com/de-DE/index/new-result-theoretical-physics/), [C Compiler](https://www.anthropic.com/engineering/building-c-compiler)
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI in Ind.& Verwaltung
+
+:::: {.columns}
+::: {.column width="30%" }
+**Vision 21**
+
+Auch schwierige Standardabläufe werden von KI und Robotern übernommen. Der Mensch überwacht, löst die Ausnahmen und übernimmt die Verantwortung.
+:::
+::: {.column width="70%" }
+
+![Industriearbeit im 21. Jahrhundert](images/Cognitive_work_21Cent.png)
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI im Handwerk
+
+
+:::: {.columns}
+::: {.column width="30%" }
+**Vision 21**
+
+Roboter übernehmen Standardaufgaben, deutlich flexibler wie Spezialmaschinen, und mit menschenähnlicher Motorik.
+:::
+::: {.column width="70%" }
+
+![Dachdecker im 21. Jahrhundert](images/Dachdecker_21Cent.png)
+:::
+::::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## KI im Service
+
+
+:::: {.columns}
+::: {.column width="30%" }
+
+**Vision 21**
+
+Servicerobotor erfüllen pick&place Aufgaben günstiger wie Menschen und besetzen die kostensensitive Nichen. Das Permiumsegment bleibt dem Menschen überlassen.
+:::
+::: {.column width="70%" }
+
+![Service im 21. Jahrhundert](images/Restaurant_21Cent.png)
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Arbeit im Jahr 2035
+
+Wenn sich KI als dominierendes Bearbeitungsmodell für Standardfälle durchsetzt, wird dies Wissenschaft, IT, Industrie, Verwaltung, Handwerk und Dienstleistungen grundlegend verändern.
+
+* Heute gilt oft als besonders leistungsfähig, wer Standardfälle aussergewöhnlich gut bearbeiten kann.
+
+* Morgen wird besonders wertvoll sein, wer erkennt, dass ein von KI erzeugtes Ergebnis vom Standardfall abweicht, die Ursache diagnostiziert, Verantwortung übernimmt und entscheidet, wie weiter vorzugehen ist.
+
+
+## Aber ...
+
+- Das ist ein Hype
+- Das geht nicht so weiter
+- Die Milliarden sind falsch investiert
+- Das kostet zu viel Strom
+
+
+<!-- =================================================== slide ===================================================== -->
+## II.
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+Warum Schule in 2030?
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Schule in 2026
+
+**Aufgaben der Schule**
+
+- **Selektion und Allokation:** beeinflussion Bildungs- und Berufsweg
+- **Bildung:** vermittelt Kompetenzen und Urteilsvermögen
+- **Betreuung:** fördert soziale Fähigkeiten und entlastet Eltern
+- **Gesellschaftliche Integration:** fördert demokratische Werte, gesellschaftliche Verantwortung und politsche Teilhabe 
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI im Unterricht 2026
+
+> *«Ich finde, die **Schule sollte uns beibringen, wie man richtig mit Chat-GPT umgeht**. So, wie es jetzt läuft – heimlich an den Lehrern vorbei –, bringt es nichts. Ich habe so eine Lehrerin in Italienisch, die schreibt uns ganz offen: Ich habe hier mit Chat-GPT ein kleines Übungsblatt gemacht, löst das doch auf morgen. Und das lösen wir dann natürlich auch mit Chat-GPT. Das mit dem Faulwerden stimmt halt schon.»*
+
+> *«[Text] zusammenfassen braucht sehr viel Zeit – wenn man das nicht mehr tun muss, bleibt **mehr Zeit zum Auswendiglernen**. Darum ergibt das **Lernen mit KI in meiner Erfahrung die besseren Noten**. Für das Gehirn wäre es wohl schon besser, es selbst zu machen – weil man den Inhalt dann eher versteht. Es gibt aber schlicht keinen Anreiz dazu.»*
+
+- [NZZ 2026](https://www.nzz.ch/zuerich/man-wird-fauler-so-tricksen-gymi-schueler-ihre-lehrpersonen-mit-ki-chatbots-aus-ein-gespraech-im-klassenzimmer-ld.1927532)
+
+
+::: {.notes .small}
+**Frage:** Wie könnte ein KI-sensitiver Unterricht aussehen, der die Effizienz nutzt **und gleichzeitig** die Herausforderungen adressiert?
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## Research
+
+Was sagt die Forschung zu den Auswirkungen von KI auf Lernen und Gedächtnis?:
+
+:::: {.columns}
+::: {.column width="50%" .text-1xs}
+
+> MIT:"*Over four months,* <span class="blue">***LLM users consistently underperformed*** [less cognitive load, less recall] </span> *at neural, linguistic, and behavioral levels. These results raise concerns about the long-term educational implications of LLM reliance and underscore the* ***need for deeper inquiry into AI's role in learning.***"
+
+> Meta-Analysis: "*[The study] indicates a* <span class="blue">***large positive impact*** [large standardized mean difference] ***(g = 0.867) of ChatGPT***</span> on student learning performance. ... [with] significant differences [...] in the type of course, learning model, and duration. [For] higher-order thinking, it is crucial to provide corresponding learning scaffolds or educational frameworks*"
+
+:::
+::: {.column width="50%"}
+<div style="position: relative; height: 12cm;">
+  <img src="images/MITBrainAILearning.png" style="width:50%; position: absolute; top: 0cm; left: 0cm;" class="image-border"/>
+  <img src="images/EffectOfChatGPTOnStudentsPerformance.png" style="width:50%; position: absolute; top: 2cm; left: 2cm;" class="image-border"/>
+</div>
+:::
+**It seems ChatGPT can <span class="blue">improve outputs while weakening internal cognitive construction</span> at the same time !?**
+::::
+
+## Schule in 2030
+
+**Aufgaben der Schule**
+
+- **Selektion und Allokation:** beeinflusst Bildungs- und Berufsweg
+  * wird **selektiert im Dialog** u.a. durch KI Prüfungsautomaten
+  * Besteht **komplexe**, ganzheitliche, Realitäts(Berufs-,Studiums-)nahe **Prüfungssituationen**
+- **Bildung:** vermittelt Kompetenzen und Urteilsvermögen
+  * erwirbt tiefe ganzheitliiche Kompetenzen in fundamentalen Kernbereichen
+  * fokus auf höhere Denkfertigkeiten 
+- **Betreuung:** fördert soziale Fähigkeiten und entlastet Eltern
+  * erfährt soziale Sicherheit und Verlässlichkeit in unsicheren Zeiten
+- **Gesellschaftliche Integration:** fördert demokratische Werte, gesellschaftliche Verantwortung und politsche Teilhabe 
+  * kann technische System selbstwirksam nutzen und gesellschaftlich einordnen
+
+
+<!-- =================================================== slide ===================================================== -->
+## III.
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+KI sensitiver Unterricht
+:::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Vertiefungstrategien
+
+:::: {.columns}
+::: {.column width="40%"}
+Schüler*innen interagieren mit ChatGPT oft nur passive. 
+
+<br><br>
+
+Vertiefung realisieren wir durch echte <span class="green">**dialogische Interaktion auf Augenhöhe**</span>.
+
+:::
+::: {.column width="60%"}
+
+![Stufen der Vertiefung](images/ICAP-Definition.webp){width="80%"}
+
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI bewusste Pädagogik 1/2
+
+:::: {.columns}
+::: {.column width="70%"}
+**PHBern SEC2: Es braucht Methodik um mit KI echte Kompetenz aufzubauen: **
+
+- nutze KI-Kapazität für <span class="green">**individuelle Förderung**</span>
+- verlange dosierte Anstrengung durch direkten <span class="green">**Start an der Kompetenzgrenze**</span>
+- fordere echte Schöpfungstiefe durch <span class="green">**komplexere Aufgabenstellungen**</span>
+- ziele auf tiefes Wissen durch <span class="green">**Vernetzung von Wissen und Kompetenzen**</span>
+- motiviere durch lebensnahes, <span class="green">**exploratives Lernen**</span> von komplexen Zusammenhängen
+:::
+::: {.column width="30%"}
+![DALL·E 3: Education as Exploration](images/explorer_education1.png){width="100%"}
+:::
+::::
+
+**ChatGPT ist nicht die Antwort.** Es braucht eine enge Lernbegleitung durch Lehrpersonen und pädagogische KI Ansätze.
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI bewusste Pädagogik 2/2
+
+Oder, mit anderen Worten **wir sitzen im KI-Bus am Steuer, nicht ChatGPT.**
+
+<div style="text-align: center;">
+  <img src="images/ComicBernPostbus.png" alt="Wir sitzen am Steuer nicht ChatGPT" style="display: inline-block; max-width: 70%; margin: 0 auto;" />
+
+</div>
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## KI Bots im Schulumfeld
+
+:::: {.columns}
+::: {.column width="50%" .text-sm}
+Vergleichsstudie an 1000 Lernenden: 
+
+Prüfungsvorbereitung mit und ohne KI Chatbots
+
+- Unterschiedliche Hausaufgaben zur Mathe Prüfungsvorbereitung
+  - Gruppe 1: Basis - traditionell
+  - Gruppe 2: +48% - ChatGPT
+  - Gruppe 3: +127% - einfacher sokratischer GPT-Tutor (nicht adaptiv)
+- Prüfung über den Lernstoff
+  - **ChatGPT Gruppen sind schlechter** als die traditionelle Gruppe
+  - GTP-Tutor Gruppe erzielt gleiche Ergebnisse wie die traditionelle Gruppe
+
+:::
+::: {.column width="50%"}
+![](images/AI harm learning.png){width="70%"  class="image-border"}
+:::
+::::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Student:innen & KI?
+
+:::: {.columns}
+::: {.column width="40%"}
+
+::: {style="font-size: 0.8em;"}
+**Anthropic Education Report**: How University Students Use Claude AI
+:::
+
+::: {style="font-size: 0.6em;"}
+Students primarily use AI systems for 
+**creating** (using information to learn something new) and 
+**analyzing** (taking apart the known and identifying relationships), such as creating coding projects or analyzing law concepts. 
+This aligns with **higher-order cognitive functions** on Bloom’s Taxonomy. 
+
+**This raises questions about ensuring students don’t offload critical cognitive tasks to AI systems.** <p></p>
+:::
+
+::: {.right-align style="margin-top: 5em; font-size: 0.5em;"}
+*Comparing the percentage of Claude.ai student conversations that are related to an National Center for Education Statistics in 1 Mio dialogues.*
+:::
+
+:::
+:::{.column width="60%"}
+![](images/anthropic_student_usage.png)
+:::
+::::
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Was sagt die Forschung?
+
+:::{.text-sm}
+
+- Bai, L., Liu, X., Su, J. (2023). **ChatGPT: The cognitive effects on learning and memory.** Brain 1: e30. DOI: 10.1002/brx2.30. – Überblicksarbeit zu möglichen Auswirkungen von ChatGPT auf Lernen und Gedächtnis; <span class="blue">**warnt vor Übernutzung und betont die Bedeutung der Aufrechterhaltung kritischer Denkfähigkeiten​**</span>.
+- Lee, H-P. et al. (2025). **The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects.** In CHI ’25 Proceedings. DOI: 10.1145/3706598.3713778. – Umfrage unter Wissensarbeitern; stellt fest, dass hohes Vertrauen in KI <span class="blue">**mit weniger eigenem kritischen Denken einhergeht**</span>, und diskutiert Verschiebungen bei kognitiven Arbeitsprozessen​ "GenAI shifts the nature of critical thinking toward information verification, response integration, and task stewardship".
+- Toma, R. B., Yánez-Pérez, I. (2024). **Effects of ChatGPT use on undergraduate students’ creativity: A threat to creative thinking?** Discover Artificial Intelligence 4(74). DOI: 10.1007/s44163-024-00172-x. – Empirische 10-Wochen-Studie; findet <span class="blue">**keine signifikante Verringerung der Kreativitätsleistung**</span> durch ChatGPT, über die Hälfte der Probanden verbesserte sich sogar im Kreativitätstest​.
+- Lee, B. C. et al. (2024). **An empirical investigation of the impact of ChatGPT on creativity.** Nature Human Behaviour 8: 1356–1366. DOI: 10.1038/s41562-024-01953-1. – Fünf Experimente zu Alltagskreativität; <span class="blue">**ChatGPT-Unterstützung führt zu kreativeren Ideen**</span>, die von Experten höher bewertet wurden als ohne KI​. ChatGPT vereint diverse Konzepte zu neuartigen Lösungen, was dessen Nutzen als Kreativitätswerkzeug unterstreicht​.
+- Zhai, X., Wibowo, S. (2024). **The effects of over-reliance on AI dialogue systems on students’ cognitive abilities: a systematic review.** Smart Learning Environments 11(1): 27. DOI: 10.1186/s40561-024-00316-7. – Systematisches Review zu Übernutzung von KI in Bildung; stellt fest, dass <span class="blue">**unkritische KI-Nutzung kritisches Denken, Entscheidungsfindung und analytisches Denken beeinträchtigen kann**​</span>.
+- Dahmani, L., Bohbot, V. D. (2020). **Habitual use of GPS negatively impacts spatial memory during self-guided navigation.** Scientific Reports 10: 6310. DOI: 10.1038/s41598-020-62877-0. – Zeigt am Beispiel Navigation: intensive Nutzung externer Hilfen (GPS) korreliert mit verschlechterter Hirnleistung (räumliches Gedächtnis) und sogar Abnahme hippocampaler Funktion über die Zeit​. Steht exemplarisch für <span class="blue">**neuroplastische “Kosten” von Technologieabhängigkeit**</span>.
+
+:::
+
+:::{.text-2xs}
+aus https://werde.kulturprofi.dguv.de/blog/posts/neurologische-und-kognitive-auswirkungen-von-ki-chatbots/
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Educational AI (PHBern)
+
+**Specify and realize a specific AI tutor design with <span class="blue">pedagogical principles enforced</span>**
+
+Educational AI shall
+
+::: {.text-xs}
+- Be **able <span class="blue">to realize and to assure quality</span>** education AI dialogs in real time
+    - alignment with intended teaching behavior
+    - alignment with session goals and domain-specific content
+
+- Be **aware of and** <span class="blue">**mitigate the risks**</span> of AI dialogues in education
+  - violation of pedagogical principles
+  - loss of tutor role and learning process control
+  - hallucinations and misinformation
+
+- **Know and implement a <span class="blue">target behavior</span>** of the AI tutor 
+  - feedback and scaffolding aligned with learning goals
+  - embedding in authentic learning contexts
+
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## AIDu - Educational AI Tutoring Research
+
+AIDu a prototype for Educational AI tutoring research.
+
+![](images/AIdu.png){width="80%"}
+![](images/AIDu Welcome.png){width="30%" .absolute top=150 left=600 style="border: 1px solid gray;"}
+![](images/AIDu_Emilie_informatic.png){width="30%" .absolute top=400 left=500 style="border: 1px solid gray;"}
+
+Allows to explore different AI tutor pedagogical concepts in real classroom experiments.
+
+## Rückblick
+
+- **Was ist Künstliche Intelligenz?**
+
+<br><br>
+
+- **Welche Herausforderungen bringt KI in der Bildung?**
+
+<br><br>
+
+- **Was ist KI Nutzung auf Augenhöhe?**
+
+
+
+
+
+## _
+
+<br><br><br><br>
+
+::: {.centered-xxl-text}
+ _-_ Thank you for your attention _-_
+ <br>
+[>/](https://www.phbern.ch/ueber-die-phbern/aktuell/news/srf-berichtet-wie-kuenstliche-intelligenz-bildung-foerdern-kann)
+:::
+
+
